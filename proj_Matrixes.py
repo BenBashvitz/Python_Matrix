@@ -7,6 +7,7 @@ This is a temporary script file.
 import numpy as np
 
 def MyMatMul(a, b):
+    #הפעולה מקבלת שתי מטריצות שבנויות כך שמספר העמודות במטריצה הראשונה הוא מספר השורות במטריצה השנייה
     c = np.zeros((np.shape(a)[0],np.shape(b)[1]))
     for i in range(np.shape(a)[0]):
         for j in range(np.shape(b)[1]):
